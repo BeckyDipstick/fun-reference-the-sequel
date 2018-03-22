@@ -113,14 +113,14 @@ const places = [
 totalPopulation(places) // 360406000
 ```
 
-### coloniseFromTheOldWorld()
+### findNewLand()
 
 Using the same dataset, write a function that takes your array of places and returns a **new array** of **new place objects** with the place name preceded by 'new' and 10% of the old population.
 
 ```js
 //using the same dataset
 
-coloniseFromTheOldWorld(places) /*
+findNewLand(places) /*
 [
   {
     place: 'New Java',
