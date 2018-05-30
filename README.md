@@ -79,7 +79,7 @@ flattenArrays([[1, 2, 3], ['a', 'b', 'c', 'd']])
 
 ### mergeArrays()
 
-Should take an array of arrays and return a flattened, single, **new array**, with the entries from each array returned in alternating order. If the arrays are not the same length, the shorter arrays should add `undefined` to the merged array until all values have been merged. Again, there are many ways of doing this - any is fine, as long as it's an array method (not a for loop).
+Should take an array of arrays and return a flattened, single, **new array**, with the entries from each array returned in alternating order. If the arrays are not the same length, the shorter arrays should add `undefined` to the merged array until all values have been merged.
 
 ```javascript
 mergeArrays([[1, 2, 3], ['a', 'b', 'c', 'd']]) 
